@@ -30,5 +30,4 @@ runs:
         - '${{ inputs.format }}'
         - '--out'
         - '/github/workspace/${{ inputs.out }}'
-        - '--noupdate'
         - ${{ inputs.args }}
